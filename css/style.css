@@ -1,0 +1,142 @@
+:root {
+	--color1: #fda500;
+	--color2: #3ea750;
+}
+
+header,
+footer,
+section {
+	padding: 100px 0;
+}
+
+header {
+	padding: 200px 0;
+}
+
+header{
+	background: var(--bs-black);
+}
+
+.btn_play {
+	background-color: var(--color1);
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	margin: 30px auto;
+	transition: all 0.2s ease;
+}
+
+.btn_play:hover {
+	background-color: var(--color2);
+}
+
+.btn_triangle {
+	margin-right: -3px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 0 10px 20px;
+	border-color: transparent transparent transparent var(--bs-white);
+}
+
+.btn-st {
+	display: block;
+	max-width: 200px;
+	margin: 0 auto;
+	padding: 7px 30px;
+	color: var(--bs-white);
+	background-color: var(--color1);
+}
+
+.btn-st:hover {
+	color: var(--bs-white);
+	background-color: var(--color2);
+}
+
+.embed-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/* ___________________________________ */
+.about {
+	background-color: #eee;
+}
+.about i{
+	color: var(--color2);
+}
+.line{
+	width: 100px;
+	height: 3px;
+	background-color: var(--color1);
+	margin: 15px auto 30px;
+}
+.itd_circle {
+	margin: 0 auto 15px;
+	width: 70px;
+	height: 70px;
+	border: 3px solid var(--color2);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* ___________________________________ */
+.forwhom h5{
+	padding: 50px 0px;
+	border: 3px solid var(--color1);
+}
+/* ___________________________________ */
+.shedule{
+	background-color: #eee;
+}
+.accordion-button:not(.collapsed){
+	color: rgb(255, 255, 255);
+	background-color: var(--color2);
+}
+.accordion-button:focus{
+	border-color: white;
+	box-shadow: none;
+}
+/* ___________________________________ */
+.gallery{
+	background-color: black;
+}
+/* ___________________________________ */
+.color1{
+	color: var(--color1);
+}
+.color2{
+	color: var(--color2);
+}
+.color3{
+	color: black;
+}
+.color4{
+	color: white;
+}
+.bg1{
+	background-color: var(--color1);
+}
+.bg2{
+	background-color: var(--color2);
+}
+img{
+	width: 100%;
+}
